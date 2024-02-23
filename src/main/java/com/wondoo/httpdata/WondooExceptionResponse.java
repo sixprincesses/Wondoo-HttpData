@@ -1,7 +1,7 @@
 package com.wondoo.httpdata;
 
 public record WondooExceptionResponse(
-        String errorMessage,
-        String errorCode
+        String errorCode,
+        String errorMessage
 ) {
 }
