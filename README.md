@@ -1,15 +1,15 @@
-# Wondoo Exception
+# Wondoo HttpData
 
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/sixprincesses/Wondoo-Exception/main)
-![GitHub License](https://img.shields.io/github/license/sixprincesses/Wondoo-Exception)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/sixprincesses/Wondoo-HttpData/main)
+![GitHub License](https://img.shields.io/github/license/sixprincesses/Wondoo-HttpData)
 
-Wondoo의 Common Exception 입니다.
+Wondoo의 Common HttpData 입니다.
 
-각 마이크로 서비스에서 HTTP통신 중 예외가 발생하거나 각 서비스의 예외를 개발할 때 사용합니다.
+각 마이크로 서비스, 클라이언트와 통신할 때 사용하는 데이터 타입들입니다.
 
 ## Dependency
 
-[Jitpack - Dependency](https://jitpack.io/#sixprincesses/Wondoo-Exception/0.0.1)
+[Jitpack - Dependency](https://jitpack.io/#sixprincesses/Wondoo-HttpData/0.0.1)
 
 ```groovy
 dependencyResolutionManagement {
@@ -21,11 +21,11 @@ dependencyResolutionManagement {
 }
 
 dependencies {
-    implementation 'com.github.sixprincesses:Wondoo-Exception:0.0.1'
+    implementation 'com.github.sixprincesses:Wondoo-HttpData:0.0.1'
 }
 ```
 
-##  프로젝트 환경
+## 프로젝트 환경
 
 ![Java](https://img.shields.io/badge/-java17-orange)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=Gradle&logoColor=white)
