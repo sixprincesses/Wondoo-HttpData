@@ -1,15 +1,15 @@
 package com.wondoo.httpdata;
 
-public record WondooHttpResponse<T>(
+public record WondooHttpServiceResponse<T>(
         T value,
         Exception exception
 ) {
-    public static <T> WondooHttpResponse<T> ok(T value) {
-        return new WondooHttpResponse<>(value, null);
+    public static <T> WondooHttpServiceResponse<T> ok(T value) {
+        return new WondooHttpServiceResponse<>(value, null);
     }
 
-    public static <T> WondooHttpResponse<T> failed(Exception e) {
-        return new WondooHttpResponse<>(null, e);
+    public static <T> WondooHttpServiceResponse<T> failed(Exception e) {
+        return new WondooHttpServiceResponse<>(null, e);
     }
 
     public T valueOrDefaultValue(T defaultValue) {
